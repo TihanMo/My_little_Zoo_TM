@@ -1,0 +1,19 @@
+header {
+    background-color:brown;
+}
+main {
+    background-color: blueviolet;
+}
+footer {
+    background-color: rgb(203, 25, 25);
+}
+
+.logo{
+    height: 2em;
+    width: 2em;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+}
