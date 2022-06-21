@@ -1,11 +1,11 @@
 header {
-    background-color:brown;
+    background-color:rgb(246, 205, 147);
 }
 main {
-    background-color: blueviolet;
+    background-color: rgb(153, 79, 221);
 }
 footer {
-    background-color: rgb(203, 25, 25);
+    background-color: rgb(160, 225, 247);
 }
 
 .logo{
@@ -16,4 +16,16 @@ footer {
 .container{
     display:flex;
     align-items: center;
+}
+
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
+
+.sins{
+    width: 120em;
+    height: 120em;
 }
