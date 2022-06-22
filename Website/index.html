@@ -3,65 +3,66 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Zoo Bergtiere</title>
+    <title>Zoo Bergtiere-Homepage</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   </head>
   <body>
      <header class="fixed-top">
-      <nav class="navbar navbar-expand-lg navbar-light">
-         <a class="navbar-brand" href="index.html">
-           <div class="container">
-            <img class="logo" src="/Images/MLZ_Berg_Logo.jpg" alt="mountain_logo">
-            <h1>Bergtiere auf einem Blick</h1>
-          </div>
-         </a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-           <span class="navbar-toggler-icon"></span>
-         </button>
-       
-         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-           <ul class="navbar-nav mr-auto">
-             <li class="nav-item">
-               <a class="nav-link" href="about_us.html">Über uns</a>
-             </li>
-             <li class="nav-item">
-              <a class="nav-link" href="content.html">Säugetiere</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="content.html">Amphibien</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="content.html">Reptilien</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="content.html">Vögel</a>
-            </li>
-             <li class="nav-item dropdown">
-               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                 Dropdown
-               </a>
-               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                 <a class="dropdown-item" href="#">Action</a>
-                 <a class="dropdown-item" href="#">Another action</a>
-                 <div class="dropdown-divider"></div>
-                 <a class="dropdown-item" href="#">Something else here</a>
-               </div>
-             </li>
-           </ul>
-           <form class="form-inline my-2 my-lg-0">
-             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-           </form>
-         </div>
-       </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img id="logo" src="/My_little_Zoo_TM/Images/Logo.png" alt="logo"> Bergtiere auf einem Blick</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Homepage</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about_us.html">Über uns</a></li>
+                    <li class="nav-item"><a class="nav-link" href="content.html">Säugetiere</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Reptilien</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Vögel</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
      </header>
-     <main>
-        <h1>Main</h1>
-        <img class="sins" src="/Images/grkj.jpg" alt="johnny sins">
+     <main class="bg-light container-fluid">
+      <br><br><br><br>
+      <h1>Neuigkeiten</h1>
+      <br>
+      <h3 class="fw-light">Erstes Feedback</h3>
+      <p class="sm-4 text break fw-lighter">23.04.2022</p>
+      <p class="sm-4 text-break">Ich möchte allen herzlich danken, die sich die Zeit genommen haben, um unseren Zoo zu besuchen! Wir sind von positivem Feedback überwältigt worden und unser Team freut sich sehr auf neue Leute, die sich für Bergtiere interessieren!</p>
+      <br>
+      <h3 class="fw-light">Eröffnung</h3>
+      <p class="sm-4 text break fw-lighter">16.04.2022</p>
+      <p class="sm-4 text-break">Am 22. April findet die Eröffnungsfeier von unserem Zoo statt! Kommt alle vorbei, der Eintritt ist kostenfrei und es gibt dazu Getränke und ein kleines Souvenir!</p>
+      <p class="sm-4 text-break">Wir würden uns sehr darauf freuen wenn ihr zahlreich erscheinet, denn es liegt uns am Herzen allen etwas mehr über die wunderschönen Tiere der Berge näher zu bringen.</p>
+      <br>
+      <br><br><br><br>
+      <br><br><br><br>
      </main>
-     <footer>
-        <h1>Footer</h1>
+     <footer class="container-fluid">
+        <img id="berglöwe" class="d-inline-flex p-2 justify-content-start" src="/My_little_Zoo_TM/Images/berglöwe.jpg" alt="berglöwe">
+        <div class="d-inline-flex p-2">
+          <h1>Umwelt</h1>
+        </div>
+        <div id="table" class="d-inline-flex justify-content-flex-end">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Öffnungszeiten</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Montag-Freitag 9:00-18:00</td>
+                  </tr>
+                  <tr>
+                    <td>Samstag 10:00-16:30</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
      </footer>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>

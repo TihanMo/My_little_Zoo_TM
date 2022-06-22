@@ -1,16 +1,19 @@
 header {
-    background-color:rgb(246, 205, 147);
+    height: 6em;
 }
 main {
     background-color: rgb(153, 79, 221);
 }
 footer {
     background-color: rgb(160, 225, 247);
+    height: 13em;
+    bottom: 0;
+    width: 100%;
 }
 
-.logo{
-    height: 2em;
-    width: 2em;
+#logo{
+    height: 3em;
+    width: 3em;
 }
 
 .container{
@@ -18,14 +21,22 @@ footer {
     align-items: center;
 }
 
-footer {
-    position: fixed;
-    height: 100px;
-    bottom: 0;
-    width: 100%;
+#animal_img{
+    width:20em;
+    height:20em;
 }
 
-.sins{
-    width: 120em;
-    height: 120em;
+#berglöwe{
+    width: 11em;
+    height: 11em;
+}
+
+#table{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#worker_img{
+    width: 10em;
+    height: 10em;
 }

@@ -3,11 +3,81 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Zoo Bergtiere-Über uns</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img id="logo" src="/My_little_Zoo_TM/Images/Logo.png" alt="logo"> Bergtiere auf einem Blick</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Homepage</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about_us.html">Über uns</a></li>
+                    <li class="nav-item"><a class="nav-link" href="content.html">Säugetiere</a></li>
+                    <li class="nav-item"><a class="nav-link" href="repltilien.html">Reptilien</a></li>
+                    <li class="nav-item"><a class="nav-link" href="vögel.html">Vögel</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+     </header>
+    <main class="bg-light container-fluid">
+      <br><br><br><br>
+      <h1>Über uns</h1>
+      <h2 class="fw-light">Team</h2>
+      <p class="sm-4 text-break">Unser Team besteht aus sehr beteiligten Leuten, die Tiere über alles lieben!</p>
+      <div class="container">
+        <div class="row align-items-start">
+          <div class="col">
+            <img id="worker_img" src="/My_little_Zoo_TM/Images/mitarbeiter_1.jpg" alt="mitarbeiter 1">
+            <h5>Mia Holl-Zoo Beaufsichtigung</h5>
+          </div>
+          <div class="col">
+            <img id="worker_img" src="/My_little_Zoo_TM/Images/mitarbeiter_2.jpg" alt="mitarbeiter 2">
+            <h5>Boris Boll-Security Chef</h5>
+          </div>
+          <div class="col">
+            <img id="worker_img" src="/My_little_Zoo_TM/Images/vet.jpg" alt="tierärztin">
+            <h5>Lexy Hartmann-Tierärtzin</h5>
+          </div>
+          <div class="col">
+            <img id="worker_img" src="/My_little_Zoo_TM/Images/manager.jpg" alt="manager">
+            <h5>Michael Jost-Gründer, Marketing</h5>
+          </div>
+        </div>
+      </div>
+      <br>
+      <h2 class="fw-light">Warum Bergtiere?</h2>
+      <p class="sm-4 text-break">Wir haben uns entschieden ein Zoo speziell für Bergtiere zu errichten, da diese Niche nicht sehr weit bedient wird. In der Schweiz gibt es ganz viele verschiedene Arten von Bergtieren und unserer Meinung nach müssen wir in Zoos nicht nur Tiere aus dem Ausland fördern, sondern auch Tiere die in unserem Land existieren.</p>
+      <br>
+      <div>
+        <h2 class="fw-light">Ort vom Zoo</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2701.2770865640714!2d8.572342015423251!3d47.38702631111373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479aa0ea12b7a697%3A0x31929c3728d4b721!2sZoo%20Z%C3%BCrich!5e0!3m2!1sde!2sch!4v1654698737563!5m2!1sde!2sch" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <br>
+      <br>
+      <h2 class="fw-light">Schulprojekt</h2>
+      <p class="sm-4 text-break">
+        Das meiste in dieser Webseite ist frei erfunden und dient zum Zweck Bootstrap und Webseitenentwicklung im Allgemeinen näher kennenzulernen. Diese Webseite ist jedoch so designt, dass es eine voll Funktionsfähige Webseite ist, die ein Unternehmen auch verwenden könnte.
+      </p>
+      <br><br><br><br>
+    </main>
+    <footer class="container-fluid">
+      <div class="float-right">
+        <div class="bs-docs-section">
+          <h3 id="kontakt">Kontaktinformationen</h3>
+          <address>
+            <strong>Michael Jost</strong><br>
+            <abbr title="Telefonnummer">Tel.</abbr> +41 3257 26 19<br>
+            <abbr title="Email-Adresse">Email</abbr> <a href="mailto:zoo.bergtiere@gmail.com">zoo.bergtiere@gmail.com</a>
+          </address>
+        </div>
+      </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>
